@@ -118,7 +118,7 @@ def startNC(TITLE, sizen, curr_pos):
         
         def build(self):
             #print(Config.get('graphics', 'shaped'))
-            Window.size = (size, size)
+            #Window.size = (size, size)
             #Config.set('graphics', 'shaped', 1)
             #Config.set('kivy', 'window_shape', alpha_shape)
             Window.shape_image = alpha_shape
