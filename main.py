@@ -57,7 +57,7 @@ class Main(FloatLayout):
         self.curr_pos[self.title_] = multiprocessing.Array('i', 2)
         p1 = multiprocessing.Process(target=startNC, args=(str(self.title_), self.pop_size, self.curr_pos[self.title_]))
         p1.start()
-        multiprocessing.freeze_support()
+        #multiprocessing.freeze_support()
         self.process_list.append(p1)
         
     def deleteAll(self, abtn):
